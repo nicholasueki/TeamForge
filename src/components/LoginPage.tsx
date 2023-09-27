@@ -22,9 +22,9 @@ function LoginPage() {
       return username === email && userPassword === password;
     });
     if (confirmUser) {
-      console.log("Login successful");
+      alert("Login successful");
     } else {
-      console.log("Invalid username or password");
+      alert("Invalid username or password");
     }
   };
 
